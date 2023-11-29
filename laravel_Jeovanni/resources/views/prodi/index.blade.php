@@ -10,7 +10,8 @@
         <table class="table table-striped table-hover">
         <thead>
             <tr>
-                <th>NPM</th>
+                <th>Foto</th>
+                <th>Nama Prodi</th>
                 <th>Aksi</th>
             </tr>
         </thead>
