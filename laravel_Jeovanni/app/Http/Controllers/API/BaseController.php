@@ -21,7 +21,7 @@ class BaseController extends Controller
             'success' => false,
             'message' => $error,
         ];
-        if (!empty($errormessages)){
+        if (!empty($errormessages && is_array($errormessages))){
             $response['data'] = $errormessages;
         }
         return response()->json($response, $code);
